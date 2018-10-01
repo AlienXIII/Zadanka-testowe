@@ -4,7 +4,7 @@ public class Choinka {
 
     //program rysujący choinke
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
 
         Scanner reader = new Scanner(System.in);
         int n = 0;
