@@ -17,7 +17,6 @@ public class Main {
 
     }
 
-
     public static StringBuffer encrypt(String slowo, int s) {
         StringBuffer result = new StringBuffer();
 
