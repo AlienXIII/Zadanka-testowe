@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class IleLiczbWTablicy {
+public class CBIleLiczbWTablicy {
 
     //program generuje 20 liczb z zakresu 1-10 a potem sprawdza ile razy jaka sie pojawila
 

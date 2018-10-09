@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 
-public class PodstawaTablic {
+public class CAPodstawaTablic {
 
     //tablica z losowymi liczbami i wyswietlanie roznych jej detali
 

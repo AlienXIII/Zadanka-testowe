@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CelciusToFahrenheit {
+public class AACelciusToFahrenheit {
 
     public class Main {
 

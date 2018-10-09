@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class Prostokat {
+public class BGProstokat {
 
     //program rysuje prostokat
 

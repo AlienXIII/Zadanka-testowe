@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class TablicaDwuwymiarowa {
+public class CCTablicaDwuwymiarowa {
 
     //Tablica dwuwymiarowa z losowymi liczbami
 

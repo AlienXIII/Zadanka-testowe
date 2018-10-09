@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Choinka {
+public class BKChoinka {
 
     //program rysujący choinke
 

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class LiczenieRat {
+public class AELiczenieRat {
 
     //program do liczenia rat
 

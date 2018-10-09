@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class OdgadnijLiczbe {
+public class BFOdgadnijLiczbe {
 
     //Zgaduj zgadula jaka wymyslilem liczbe
 

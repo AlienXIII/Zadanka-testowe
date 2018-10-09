@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class Taxes {
+public class ADTaxes {
 
     //program do obliczania podatku od wysokosci rocznego dochodu
 

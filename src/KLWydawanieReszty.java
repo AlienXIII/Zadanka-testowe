@@ -3,7 +3,7 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 
-public class WydawanieReszty {
+public class KLWydawanieReszty {
 
     //Program pokazuje ile wydac reszty w monetach zaleznie od podanej mu liczby
 

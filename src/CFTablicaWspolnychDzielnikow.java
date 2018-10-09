@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TablicaWspolnychDzielnikow {
+public class CFTablicaWspolnychDzielnikow {
 
     //Tablica wspólnych dzielników dla podanej liczby
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Bmi {
+public class ACBmi {
 
     //podajesz wage i wzrost a program podaje ci BMI
 

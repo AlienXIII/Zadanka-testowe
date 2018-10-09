@@ -3,7 +3,7 @@ import java.util.Scanner;
 import static java.lang.System.exit;
 
 
-public class Calculator {
+public class AFCalculator {
 
     public void main(String[] args) {
 
