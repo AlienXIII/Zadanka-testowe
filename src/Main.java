@@ -1,39 +1,39 @@
-import java.util.Arrays;
-import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
 
-    //opis programu
+    //szyfr cezara
 
     public static void main(String[] args) {
 
-        Random rand = new Random();
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Podaj słowo: ");
+        String slowo = reader.nextLine();
+        slowo = slowo.trim();
+        System.out.println("podaj przesunięcie: ");
+        int s = reader.nextInt();
 
-        int[][] tablica = new int[5][5];
-
-        for (int i = 0; i < tablica.length; i++) {
-            for (int j = 0; j < tablica[i].length; j++) {
-                tablica[i][j] = rand.nextInt(11) - 5;
-            }
-        }
-
-            //wyswietlanie
-
-        for(int i=0;i<tablica.length; i++)
-        {
-            for(int j=0; j<tablica[i].length; j++)
-            {
-                System.out.print(tablica[i][j] + " ");
-
-            }
-            System.out.print("\n");
-        }
-
-
-
-
-
-
+        System.out.println("zaszyfrowany tekst: " + encrypt(slowo, s));
 
     }
+
+
+    public static StringBuffer encrypt(String slowo, int s) {
+        StringBuffer result = new StringBuffer();
+
+        for (int i = 0; i < slowo.length(); i++) {
+            if (Character.isUpperCase(slowo.charAt(i))) {
+                char ch = (char) (((int) slowo.charAt(i) +
+                        s - 65) % 26 + 65);
+                result.append(ch);
+            } else {
+                char ch = (char) (((int) slowo.charAt(i) +
+                        s - 97) % 26 + 97);
+                result.append(ch);
+            }
+        }
+        return result;
+    }
+
+
 }

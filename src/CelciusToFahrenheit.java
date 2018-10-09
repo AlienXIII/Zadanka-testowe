@@ -8,7 +8,7 @@ public class CelciusToFahrenheit {
         public void main(String[] args) {
 
             int celc;
-            System.out.println("Hello World!");
+
             Scanner reader = new Scanner(System.in);
             System.out.println("Podaj temperature w Celcjuaszach: ");
             celc = reader.nextInt();
