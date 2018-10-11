@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class OperacjeNaStringach {
+public class DAOperacjeNaStringach {
 
     //Rozne operacje na slowach
 

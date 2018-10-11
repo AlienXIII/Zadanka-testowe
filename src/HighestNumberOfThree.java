@@ -9,7 +9,6 @@ public class HighestNumberOfThree {
     public void main(String[] args) {
         int pierwsza, druga, trzecia;
 
-        System.out.println("Hello World!");
         Scanner reader = new Scanner(System.in);
         System.out.println("Podaj liczbe: ");
         pierwsza = reader.nextInt();
